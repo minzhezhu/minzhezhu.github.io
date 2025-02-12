@@ -49,7 +49,7 @@
       "releaseDate": "2025-01-17",
       "url": "https://doi.org/10.1093/imrn/rnae293",
       "summary": "We investigate the singularities and boundedness of a special kind of algebraic varieties so-called stable minimal models, which are constructed and studied by Birkar. Given a klt stable minimal model with bounded relative volume, if we fix the dimension, Iitaka volume, and a DCC set controlling coefficients, then we show that the singularities of the klt stable minimal model can be controlled uniformly. Furthermore, we prove that with certain bounded data, stable minimal models with klt singularities form a bounded family."
-    },
+    }
   ],
   "languages": [
     {
@@ -75,7 +75,7 @@
       "keywords": [
         "Badmintion",
         "Billards"
-      ],
+      ]
     }
-  ],
+  ]
 }
