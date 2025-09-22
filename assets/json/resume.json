@@ -23,13 +23,11 @@
       }
     ]
   },
-  "employment": [
+  "work": [
     {
-      "institution": "Korea Institute for Advanced Study",
-      "location": "Seoul, Korea",
-      "url": "https://math.fudan.edu.cn",
-      "area": "Pure Mathematics",
-      "studyType": "Ph. D.",
+      "name": "Korea Institute for Advanced Study",
+      "position": "Research Fellow",
+      "url": "https://kias.re.kr",
       "startDate": "2025-09",
       "endDate": "present"
     }
