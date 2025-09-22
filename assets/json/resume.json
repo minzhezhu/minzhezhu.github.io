@@ -3,15 +3,15 @@
     "name": "Minzhe Zhu",
     "label": "",
     "image": "",
-    "email": "zhumz20@fudan.edu.cn",
+    "email": "zhumz@kias.re.kr","zhumz20@fudan.edu.cn",
     "phone": "",
     "url": "https://minzhezhu.github.io",
     "personal blog": "https://minzhezhu.github.io/blog",
     "summary": "",
     "location": {
-      "address": "2005 Songhu Road, Shanghai, China",
-      "postalCode": "200438",
-      "city": "Shanghai",
+      "address": "85 Hoegiro, Dongdaemun-gu Seoul, Korea",
+      "postalCode": "02455",
+      "city": "Seoul",
       "countryCode": "",
       "region": ""
     },
@@ -23,6 +23,15 @@
       }
     ]
   },
+  "employment": [
+    {
+      "institution": "Korea Institute for Advanced Study",
+      "location": "Seoul, Korea",
+      "url": "https://www.kias.re.kr/",
+      "startDate": "2025-09",
+      "endDate": "present"
+    }
+  ],
   "education": [
     {
       "institution": "School of Mathematical Sciences, Fudan University",
@@ -31,7 +40,7 @@
       "area": "Pure Mathematics",
       "studyType": "Ph. D.",
       "startDate": "2020-09",
-      "endDate": "present"
+      "endDate": "2025-06"
     },
     {
       "institution": "School of Mathematical Sciences, Fudan University",
@@ -65,6 +74,11 @@
     },
     {
       "language": "Japanese",
+      "fluency": "Beginner",
+      "icon": ""
+    },
+    {
+      "language": "Korean",
       "fluency": "Beginner",
       "icon": ""
     }
