@@ -8,9 +8,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>2003 Guanghua East Tower</p>
-    <p>220 Handan Road</p>
-    <p>Shanghai, Yangpu</p>
+    <p>Office 1539, Korea Institute for Advanced Study</p>
+    <p>85 Hoegiro, Dongdaemun-gu</p>
+    <p>Seoul, Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
