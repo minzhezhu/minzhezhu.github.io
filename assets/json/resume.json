@@ -3,7 +3,7 @@
     "name": "Minzhe Zhu",
     "label": "",
     "image": "",
-    "email": "zhumz@kias.re.kr","zhumz20@fudan.edu.cn",
+    "email": "zhumz@kias.re.kr",
     "phone": "",
     "url": "https://minzhezhu.github.io",
     "personal blog": "https://minzhezhu.github.io/blog",
@@ -23,15 +23,6 @@
       }
     ]
   },
-  "employment": [
-    {
-      "institution": "Korea Institute for Advanced Study",
-      "location": "Seoul, Korea",
-      "url": "https://www.kias.re.kr/",
-      "startDate": "2025-09",
-      "endDate": "present"
-    }
-  ],
   "education": [
     {
       "institution": "School of Mathematical Sciences, Fudan University",
