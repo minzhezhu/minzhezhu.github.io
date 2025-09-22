@@ -8,8 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office 1539</p>
-    <p>Korea Institute for Advanced Study</p>
+    <p>Office 1539, Korea Institute for Advanced Study</p>
     <p>85 Hoegiro, Dongdaemun-gu</p>
     <p>Seoul, Korea</p>
 
