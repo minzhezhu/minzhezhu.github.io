@@ -26,6 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a Ph. D. student in [School of Mathematical Sciences, Fudan University](https://math.fudan.edu.cn/). My advisor is [Prof. Meng Chen](https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm).
+Hi! I am a research fellow in [Korea Institute for Advanced Study(KIAS)](https://www.kias.re.kr/). I obtained my Ph. D. at [Fudan University](https://math.fudan.edu.cn/) under the supervision of [Prof. Meng Chen](https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm).
 
 My research interest lies in Birational Algebraic Geometry, especially Higher Dimensional Boundedness Theory. Recently, I work on Boundedness of klt stable minimal models. I also work on explicit birational geometry, for example, calculating explicit effective birationality and lower bound of volumes of epsilon-lc polarized surfaces and threefolds. If you also have interests in these topics, please kindly contact me by e-mail.
