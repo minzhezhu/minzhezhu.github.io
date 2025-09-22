@@ -23,6 +23,17 @@
       }
     ]
   },
+  "employment": [
+    {
+      "institution": "Korea Institute for Advanced Study",
+      "location": "Seoul, Korea",
+      "url": "https://math.fudan.edu.cn",
+      "area": "Pure Mathematics",
+      "studyType": "Ph. D.",
+      "startDate": "2025-09",
+      "endDate": "present"
+    }
+  ],
   "education": [
     {
       "institution": "School of Mathematical Sciences, Fudan University",
