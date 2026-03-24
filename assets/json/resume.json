@@ -27,6 +27,7 @@
     {
       "name": "Korea Institute for Advanced Study",
       "position": "Research Fellow",
+      "location": "Seoul, Korea",
       "url": "https://kias.re.kr",
       "startDate": "2025-09",
       "endDate": "present"
@@ -87,12 +88,12 @@
     {
       "name": "Sports",
       "icon": "",
-      "keywords": ["Badmintion", "Billards", "Cycling"]
+      "keywords": ["Badmintion", "Billiards", "Cycling"]
     },
     {
       "name": "Books",
       "icon": "",
-      "keywords": ["The Song of Ice and Fire"]
+      "keywords": ["The Song of Ice and Fire", "The Three-Body Problem"]
     },
     {
       "name": "Movies",
@@ -102,7 +103,7 @@
     {
       "name": "Games",
       "icon": "",
-      "keywords": ["The Lengend of Zelda: Breath of The Wild"]
+      "keywords": ["The Lengend of Zelda: Breath of The Wild", "Outer Wilds"]
     },
     {
       "name": "Animes",
