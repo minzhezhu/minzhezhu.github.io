@@ -26,6 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a research fellow in [Korea Institute for Advanced Study(KIAS)](https://www.kias.re.kr/). I obtained my Ph. D. at [Fudan University](https://math.fudan.edu.cn/) under the supervision of [Prof. Meng Chen](https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm).
+Hi! I am a research fellow at the [Korea Institute for Advanced Study(KIAS)](https://www.kias.re.kr/). I obtained my Ph.D. at [Fudan University](https://math.fudan.edu.cn/) under the supervision of [Prof. Meng Chen](https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm).
 
 My research interests lie in birational algebraic geometry, with a particular focus on higher-dimensional boundedness theory. My recent work includes the boundedness of polarized log Calabi--Yau fibrations and klt stable minimal models. I am also interested in explicit birational geometry, such as effective birationality and explicit lower bounds for the volumes of $\epsilon$-lc polarized surfaces and threefolds. If you are interested in these topics, please feel free to contact me by e-mail.
