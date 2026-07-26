@@ -109,6 +109,11 @@
       "name": "Animes",
       "icon": "",
       "keywords": ["Steins;Gate"]
+    },
+    {
+      "name": "Dramas",
+      "icon": "",
+      "keywords": ["Moral Peanuts"]
     }
   ]
 }
