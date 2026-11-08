@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 登顶成功.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office 1539, Korea Institute for Advanced Study</p>
