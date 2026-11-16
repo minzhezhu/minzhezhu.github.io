@@ -55,6 +55,13 @@
   ],
   "publications": [
     {
+      "name": "Boundedness of polarized log Calabi-Yau fibrations with bounded bases",
+      "publisher": "Journal of the European Mathematical Society",
+      "releaseDate": "2026-10-13",
+      "url": "https://doi.org/10.4171/JEMS/1822",
+      "summary": "We investigate the boundedness problem for log Calabi-Yau fibrations whose bases and general fibers are bounded. We prove that the total spaces of log Calabi-Yau fibrations are bounded in codimension one after fixing some natural invariants. We also prove that the total spaces are bounded if, in addition, the irregularity of the general fibers vanishes. Then we apply our results to the boundedness problem for stable minimal models and fibered Calabi-Yau varieties."
+    },
+    {
       "name": "Boundedness of stable minimal models with klt singularities",
       "publisher": "International Mathematics Research Notices",
       "releaseDate": "2025-01-17",
