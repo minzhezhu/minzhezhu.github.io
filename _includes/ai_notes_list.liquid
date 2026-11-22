@@ -1,0 +1,59 @@
+{% assign notes = site.ai_notes | sort: 'date' | reverse %}
+{% if notes.size > 0 %}
+  <div class="publications">
+    <ol class="bibliography">
+      {% for note in notes %}
+        <li>
+          <div class="row">
+            {% if note.topic %}
+              <div class="col-auto col-sm-2 abbr">
+                <span class="badge rounded w-100 text-white" style="background-color: #005daa">{{ note.topic | escape }}</span>
+              </div>
+            {% endif %}
+            <div class="col-12{% if note.topic %} col-sm-10{% endif %}">
+              <h2 class="title h6 mb-0">
+                <a class="text-reset" href="{{ note.url | relative_url }}">{{ note.title | escape }}</a>
+              </h2>
+              {% if note.description and note.description != empty %}
+                <div>{{ note.description | escape }}</div>
+              {% endif %}
+              <div class="periodical">
+                <em
+                  ><time datetime="{{ note.date | date: '%Y-%m-%d' }}">{{ note.date | date: '%B %Y' }}</time></em
+                >
+              </div>
+              <div class="links">
+                {% if note.pdfs.zh %}
+                  <a
+                    class="btn btn-sm z-depth-0"
+                    href="{{ note.pdfs.zh | relative_url }}"
+                    hreflang="zh-Hans"
+                    type="application/pdf"
+                    aria-label="CH (Chinese PDF), {{ note.title | escape }}"
+                    >CH</a
+                  >
+                {% endif %}
+                {% if note.pdfs.en %}
+                  <a
+                    class="btn btn-sm z-depth-0"
+                    href="{{ note.pdfs.en | relative_url }}"
+                    hreflang="en"
+                    type="application/pdf"
+                    aria-label="EN (English PDF), {{ note.title | escape }}"
+                    >EN</a
+                  >
+                {% endif %}
+                {% if note.paper_url and note.paper_url != empty %}
+                  <a class="btn btn-sm z-depth-0" href="{{ note.paper_url | escape }}">Original paper</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+
+{% else %}
+  The first note will appear here.
+{% endif %}
