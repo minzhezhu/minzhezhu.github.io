@@ -5,28 +5,52 @@ title: Notes on AI Papers
 nav_title: AI notes
 nav: true
 nav_order: 7
-description: I share the ideas, derivations, and questions I work through while reading AI papers.
 ---
+
+In a world that feels unsettled, I often wonder what work is worth doing. When I sit down with a difficult paper written by AI and write out the argument for myself, I find a little peace, at least for a while.
+
+These notes are my attempt to “translate” those arguments into language I can follow as a human reader. All credit for the ideas and results belongs to the original authors. I hope the notes help you through a difficult passage, too. If you spot a mistake or find a step unclear, please [email me](mailto:{{ site.data.resume.basics.email }}). I’d be glad to work through it with you.
 
 {% assign notes = site.ai_notes | sort: "date" | reverse %}
 {% if notes.size > 0 %}
 
-<ul class="post-list">
-  {% for note in notes %}
-    <li>
-      <h2 class="h4"><a href="{{ note.url | relative_url }}">{{ note.title | escape }}</a></h2>
-      {% if note.description and note.description != empty %}
-        <p>{{ note.description | escape }}</p>
-      {% endif %}
-      <p class="post-meta">
-        <time datetime="{{ note.date | date: '%Y-%m-%d' }}">{{ note.date | date: '%b %d, %Y' }}</time>
-        {% if note.paper_url and note.paper_url != empty %}
-          &middot; <a href="{{ note.paper_url | escape }}">Original paper</a>
-        {% endif %}
-      </p>
-    </li>
-  {% endfor %}
-</ul>
+<div class="publications">
+  <ol class="bibliography">
+    {% for note in notes %}
+      <li>
+        <div class="row">
+          {% if note.topic %}
+            <div class="col-auto col-sm-2 abbr">
+              <span class="badge rounded w-100 text-white" style="background-color: #005daa">{{ note.topic | escape }}</span>
+            </div>
+          {% endif %}
+          <div class="col-12{% if note.topic %} col-sm-10{% endif %}">
+            <h2 class="title h6 mb-0"><a class="text-reset" href="{{ note.url | relative_url }}">{{ note.title | escape }}</a></h2>
+            {% if note.description and note.description != empty %}
+              <div>{{ note.description | escape }}</div>
+            {% endif %}
+            <div class="periodical">
+              <em><time datetime="{{ note.date | date: '%Y-%m-%d' }}">{{ note.date | date: '%B %Y' }}</time></em>
+            </div>
+            <div class="links">
+              {% if note.pdfs.zh %}
+                <a class="btn btn-sm z-depth-0" href="{{ note.pdfs.zh | relative_url }}" hreflang="zh-Hans" type="application/pdf"
+                  aria-label="CH (Chinese PDF), {{ note.title | escape }}">CH</a>
+              {% endif %}
+              {% if note.pdfs.en %}
+                <a class="btn btn-sm z-depth-0" href="{{ note.pdfs.en | relative_url }}" hreflang="en" type="application/pdf"
+                  aria-label="EN (English PDF), {{ note.title | escape }}">EN</a>
+              {% endif %}
+              {% if note.paper_url and note.paper_url != empty %}
+                <a class="btn btn-sm z-depth-0" href="{{ note.paper_url | escape }}">Original paper</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</div>
 
 {% else %}
 
