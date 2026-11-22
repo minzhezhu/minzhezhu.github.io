@@ -7,6 +7,6 @@ nav: true
 nav_order: 7
 ---
 
-In these notes, I work through proofs from OpenAI’s papers and explain the harder steps in my own words. All credit for the ideas and results in these papers goes to OpenAI. If you spot a mistake or find a step unclear, please email me.
+I put these notes together from my conversations with GPT. My aim is to translate the reasoning in OpenAI’s papers into language that human readers can more easily follow. All credit for the ideas and results in these papers goes to OpenAI. If you spot a mistake or find a step unclear, please email me.
 
 {% include ai_notes_list.liquid %}
