@@ -12,7 +12,11 @@
             {% endif %}
             <div class="col-12{% if note.topic %} col-sm-10{% endif %}">
               <h2 class="title h6 mb-0">
-                <a class="text-reset" href="{{ note.url | relative_url }}">{{ note.title | escape }}</a>
+                {% if note.link_title == false %}
+                  {{ note.title | escape }}
+                {% else %}
+                  <a class="text-reset" href="{{ note.url | relative_url }}">{{ note.title | escape }}</a>
+                {% endif %}
               </h2>
               {% if note.description and note.description != empty %}
                 <div>{{ note.description | escape }}</div>
@@ -23,6 +27,11 @@
                 >
               </div>
               <div class="links">
+                {% if note.paper_url and note.paper_url != empty %}
+                  <a class="btn btn-sm z-depth-0" href="{{ note.paper_url | escape }}" title="Original paper">
+                    {{- note.paper_label | default: 'Original paper' | escape -}}
+                  </a>
+                {% endif %}
                 {% if note.pdfs.zh %}
                   <a
                     class="btn btn-sm z-depth-0"
@@ -42,9 +51,6 @@
                     aria-label="EN (English PDF), {{ note.title | escape }}"
                     >EN</a
                   >
-                {% endif %}
-                {% if note.paper_url and note.paper_url != empty %}
-                  <a class="btn btn-sm z-depth-0" href="{{ note.paper_url | escape }}">Original paper</a>
                 {% endif %}
               </div>
             </div>

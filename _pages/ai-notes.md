@@ -7,8 +7,6 @@ nav: true
 nav_order: 7
 ---
 
-In a world that feels unsettled, I often wonder what work is worth doing. When I sit down with a difficult paper written by AI and write out the argument for myself, I find a little peace, at least for a while.
-
-These notes are my attempt to “translate” those arguments into language I can follow as a human reader. All credit for the ideas and results belongs to the original authors. I hope the notes help you through a difficult passage, too. If you spot a mistake or find a step unclear, please [email me](mailto:{{ site.data.resume.basics.email }}). I’d be glad to work through it with you.
+In these notes, I work through proofs from OpenAI’s papers and explain the harder steps in my own words. All credit for the ideas and results in these papers goes to OpenAI. If you spot a mistake or find a step unclear, please email me.
 
 {% include ai_notes_list.liquid %}
